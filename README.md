@@ -19,7 +19,7 @@ Enforced commits by usage of commitlint hook with husky. https://www.npmjs.com/p
 ```
 CommitLint config: @commitlint/config-conventional (see .commitlint.config.js)
 
-###Commitize
+### Commitizen
 
 Use Commitizen for creating best commits through script. https://www.npmjs.com/package/commitizen
 
@@ -41,11 +41,19 @@ Using Semantic Release: https://semantic-release.gitbook.io/semantic-release/
 
 And similar configuration to: https://github.com/jedmao/semantic-release-npm-github-config (see .releaserc)
 
+Uses GITHUB_TOKEN environment variable with a personal access token. https://help.github.com/en/github/authenticating-to-github/creating-a-personal-access-token-for-the-command-line
+
 Call semantic releases with npm script
 
 ```
 "scripts": {
+  // ci version:
   "release": "semantic-release"
+  ...
+  // local version 
+  // "env-cmd -f .env" to set GITHUB_TOKEN from environment variable
+  // "--no-ci" option to allow create releases outside ci
+  "release": "env-cmd -f '.env' semantic-release --no-ci"
 },
 ```
 
