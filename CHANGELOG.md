@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 1.0.0 (2019-11-27)
+
+
+### Features
+
+* add automated releases ([83ccda9](https://github.com/cibergarri/poc-automated-releases/commit/83ccda94a11e6adbe5c4dc6fcade0aa80e89538d))
+
+
+### BREAKING CHANGES
+
+* First working version
+
 # [2.7.0](https://github.com/bagonboard/test-automated-releases/compare/v2.6.3...v2.7.0) (2019-11-27)
 
 

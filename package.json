@@ -6,7 +6,7 @@
   "scripts": {
     "commit": "git-cz",
     "test": "echo running tests....",
-    "release": "semantic-release"
+    "release": "env-cmd -f '.env' semantic-release --no-ci"
   },
   "repository": {
     "type": "git",
@@ -34,6 +34,8 @@
     "@semantic-release/release-notes-generator": "7.3.4",
     "commitizen": "4.0.3",
     "cz-conventional-changelog": "3.0.2",
+    "dotenv": "8.2.0",
+    "env-cmd": "10.0.1",
     "husky": "3.1.0",
     "semantic-release": "15.13.31"
   },
