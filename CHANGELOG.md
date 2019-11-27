@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.1.0](https://github.com/cibergarri/poc-automated-releases/compare/v1.0.0...v1.1.0) (2019-11-27)
+
+
+### Features
+
+* **git:** add .env to gitignore ([f2115f3](https://github.com/cibergarri/poc-automated-releases/commit/f2115f3049c7e14a671e72459eb5fc7811e637d7))
+
 # 1.0.0 (2019-11-27)
 
 
