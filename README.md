@@ -1,6 +1,5 @@
 # POC for testing automated release
 
-https://bagonboard.atlassian.net/wiki/spaces/PRD/pages/1344045061/Automate+releases+versioning+WIP
 
 ## Commits
 
